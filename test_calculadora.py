@@ -22,12 +22,14 @@ class TestCalculadora(unittest.TestCase):
     def test_soma(self):
         self.assertEqual(self.calc.soma(10, 20), 30)
         self.assertEqual(self.calc.soma(123, 456), 579)
+        self.assertEqual(self.calc.soma(5000, 2500), 7500)
         
     # Criando o teste do método
     # 'subtracao' da classe 'Calculadora'
     def test_subtracao(self):
         self.assertEqual(self.calc.subtracao(20, 10), 10)
         self.assertEqual(self.calc.subtracao(789, 456), 333)
+        self.assertEqual(self.calc.subtracao(5000, 2500), 2500)
         
     # Criando o teste do método
     # 'multiplicacao' da classe 'Calculadora'
