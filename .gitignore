@@ -3,3 +3,14 @@ package.json
 
 # Ignorando a pasta 'node'
 node/*
+
+# Ignorando o arquivo 'app.py'
+django/app.py
+
+# Ignorando o arquivo 'index.html'
+django/paginas/inicial/index.html
+
+# Ignorando a pasta 'usuario'
+django/paginas/usuario/*
+
+
