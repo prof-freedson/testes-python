@@ -10,3 +10,6 @@ testes unitários
 
 OBSERVAÇÃO:não esquecer de subir
 as alterações para o Github
+
+OBSERVAÇÃO: revisar os conhecimentos
+do arquivo ".gitignore"
