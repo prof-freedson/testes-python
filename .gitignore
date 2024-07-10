@@ -11,6 +11,6 @@ django/app.py
 django/paginas/inicial/index.html
 
 # Ignorando a pasta 'usuario'
-django/paginas/usuario/*
+#django/paginas/usuario/*
 
 
