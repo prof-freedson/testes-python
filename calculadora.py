@@ -10,3 +10,14 @@ class Calculadora:
     # chamado 'subtracao'
     def subtracao(self, n1, n2):
         return n1 - n2
+
+    # 3) Criar o método
+    # chamado 'multiplicacao'
+    def multiplicacao(self, n1, n2):
+        return n1 * n2
+
+
+
+
+
+
