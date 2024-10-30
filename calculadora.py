@@ -5,3 +5,8 @@ class Calculadora:
     # chamado 'soma'
     def soma(self, n1, n2):
         return n1 + n2
+    
+    # 2) Criar o método
+    # chamado 'subtracao'
+    def subtracao(self, n1, n2):
+        return n1 - n2
