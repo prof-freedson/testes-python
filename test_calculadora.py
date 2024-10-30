@@ -17,6 +17,9 @@ class TestCalculadora(unittest.TestCase):
     # do método 'soma'
     def test_soma(self):
         self.assertEqual(self.calc.soma(10, 10), 20, "Deve somar dois números")
+    
+    def test_subtracao(self):
+        self.assertEqual(self.calc.subtracao(10, 10), 0, "Deve subtrair dois números")
         
 # Executar a classe de testes unitários
 if __name__ == "__main__":
