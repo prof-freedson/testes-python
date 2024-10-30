@@ -20,6 +20,9 @@ class TestCalculadora(unittest.TestCase):
     
     def test_subtracao(self):
         self.assertEqual(self.calc.subtracao(10, 10), 0, "Deve subtrair dois números")
+    
+    def test_multiplicacao(self):
+        self.assertEqual(self.calc.multiplicacao(10, 10), 100, "Deve subtrair dois números")
         
 # Executar a classe de testes unitários
 if __name__ == "__main__":
